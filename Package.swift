@@ -10,7 +10,8 @@ let package = Package(
         .target(
             name: "CircleProgressView",
             path: "CircleProgressView",
-            sources: ["CircleProgressView.swift"]
+            sources: ["CircleProgressView.swift"],
+            exclude: ["Baes.lproj", "Images.xcassets", "AppDelegate.swift", "CircleProgressView.h", "Info.plist", "ViewController.swift"]
         )
     ]
 )
