@@ -3,6 +3,7 @@ import PackageDescription
 
 let package = Package(
     name: "CircleProgressView",
+    defaultLocalization: "en",
     products: [
         .library(name: "CircleProgressView", targets: ["CircleProgressView"])
     ],
@@ -10,7 +11,7 @@ let package = Package(
         .target(
             name: "CircleProgressView",
             path: "CircleProgressView",
-            exclude: ["Baes.lproj", "Images.xcassets", "AppDelegate.swift", "CircleProgressView.h", "Info.plist", "ViewController.swift"],
+            exclude: ["Baes.lproj", "Images.xcassets"],
             sources: ["CircleProgressView.swift"]
         )
     ]
