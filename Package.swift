@@ -8,11 +8,6 @@ let package = Package(
         .library(name: "CircleProgressView", targets: ["CircleProgressView"])
     ],
     targets: [
-        .target(
-            name: "CircleProgressView",
-            path: "CircleProgressView",
-            exclude: ["ViewController.swift", "AppDelegate.swift", "Info.plist", "Images.xcassets"],
-            sources: ["CircleProgressView.swift"]
-        )
+        .target(name: "CircleProgressView")
     ]
 )
